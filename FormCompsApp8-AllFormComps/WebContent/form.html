@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1 style="color:red; text-align:center;">Html to Servlet Communication using all form components</h1>
+
+<form action="formurl" method="post">
+<table border="1" bgcolor="cyan" align="center">
+<tr>
+<td>Name: </td>
+<td><input type="text" name="name" placeholder="enter your name here"></td>
+</tr>
+
+<tr>
+<td>Age: </td>
+<td><input type="password" name="age" placeholder="enter your age here"></td>
+</tr>
+
+<tr>
+<td>Addrss: </td>
+<td><textarea name="address" rows="5" cols="15" placeholder="enter address here"></textarea></td>
+</tr>
+
+<tr>
+<td>Gender: </td>
+<td>
+<input type="radio" name="gender" value="M" checked>Male &nbsp;
+<input type="radio" name="gender" value="F">Female &nbsp;
+</td>
+</tr>
+<tr>
+<td>Marital Satus: </td>
+<td><input type="checkbox" name="ms" value="married">Married</td>
+</tr>
+<tr>
+<td>Qualification: </td>
+<td>
+	<select name="qualification">
+	<option value="" selected>--select a value--</option>
+	<option value="engg">B.tech/M.tech/MCA/BE/BCA</option>
+	<option value="med">MBBS/BDS/MD</option>
+	<option value="arts">B.A/M.A<option>
+	<option value="comm">B.com/M.com/CA</option>	
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>Favourite Cities: </td>
+<td>
+	<select name="cities" multiple>
+		<option value="noida">Noida</option>
+		<option value="indore" selected>Indore</option>
+		<option value="hyderabad" selected>Hyderabad</option>
+		<option value="cheenai">Cheenai</option>
+		<option value="mumbai">Mumbai</option>
+		<option value="benguluru">Bengulure</option>	
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>Hobbies: </td>
+<td>
+<input type="checkbox" name="hb" value="reading" checked>Reading Books
+<input type="checkbox" name="hb" value="watching">Watching TV <br>
+<input type="checkbox" name="hb" value="stamp">Stamp Collection
+<input type="checkbox" name="hb" value="music"> Listening Music
+</td>
+</tr>
+<tr>
+	<td>Fav color:: </td>
+    <td><input type="color" name="favColor">   </td>
+</tr>
+
+
+<tr>
+<td>Date of Birth :</td>
+<td><input type="date" name="dob"></td>
+</tr>
+
+<tr>
+<td>Time of Birth :</td>
+<td><input type="time" name="tob"></td>
+</tr>
+
+<tr>
+<td>Email :</td>
+<td><input type="email" name="email" placeholder="enter eamil here"></td>
+</tr>
+<tr>
+<td>Fb url :</td>
+<td><input type="url" name="fbUrl" placeholder="enter facebook url"></td>
+</tr>
+<tr>
+<td>Mobile No :</td>
+<td><input type="tel" name="mobNo" placeholder="enter mobile no here"></td>
+</tr>
+<tr>
+<td>Salary :</td>
+<td><input type="range" name="salary" min="10000" max="100000" placeholder="10000 to 100000"></td>
+</tr>
+<tr>
+<td>Birth Week :</td>
+<td><input type="week" name="bWeek" ></td>
+</tr>
+<tr>
+<td>Birth Month :</td>
+<td><input type="month" name=bMonth></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="Send Request"></td>
+<td><input type="reset" value="Cancel"></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>

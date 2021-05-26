@@ -1,0 +1,26 @@
+<html>
+
+<h1 style="color:red; text-align:center;">Html to Servlet Communication using JavaScript</h1>
+
+<form action="capitalurl" method="post" name="frm">
+
+Select Country :: <select name="country" onchange="sendRequest()">
+						<option value="" selected>---select options---</option>
+						<option value="1">india</option>
+						<option value="2">China</option>
+						<option value="3">USA</option>
+						<option value="4">Bangladesh</option>
+
+</select>
+</form>
+<script language="JavaScript">
+
+	function sendRequest(){
+		frm.submit();
+	}
+
+</script>
+
+
+
+</html>

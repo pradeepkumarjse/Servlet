@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+</head>
+<body bgcolor="cyan">
+<h1 style="color:red;text-align:center;">Html to Servlet Communication Using Form Data</h1>
+<h3 style="color:blue;text-align:center">Marriage Eligibility Checker for Male</h3>
+<div style="text-align:center;">
+
+
+
+	<form action="check" method="post" onsubmit="return validate(this)">
+		Enter Name: <input type="text" name="pname"><span id="pnameErr" style="color:red"></span><br><br>
+		Enter Age : <input type="text" name="page"><span id="pageErr" style="color:red"></span><br><br>
+		Enter Address:<input type="text" name="paddress"><span id="paddressErr" style="color:red"></span><br><br>
+		<input type="submit" value="Check">
+		<input type="hidden" name="vflag" value="no">
+	
+	</form>
+	
+	
+	
+	
+	<script language="JavaScript" src="js/Validation.js">
+	
+	</script>
+
+</div>
+<br><br><br>
+
+<div style="text-align:center; color:blue;">
+<a href="check">GetSystemDateAndTime</a>
+
+</div>
+
+</body>
+</html>
